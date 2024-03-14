@@ -21,7 +21,7 @@ from chemex.typing import ArrayFloat
 @dataclass
 class Reporter:
     last_chisqr: float = +1.0e32
-    threshold: float = -1.0e-1
+    threshold: float = -1.0e-3
 
     def iter_cb(
         self,
